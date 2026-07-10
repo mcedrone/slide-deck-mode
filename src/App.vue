@@ -239,7 +239,7 @@ function resetPdf() {
           <p class="mx-auto mt-5 max-w-[680px] text-[17px] leading-[1.65] text-white/65">Upload a report, proposal, or guide. Decksmith finds the narrative and turns it into a presentation you can shape and share.</p>
         </div>
 
-        <button ref="dropZone" type="button" class="mt-9 flex min-h-[215px] w-full max-w-[650px] cursor-pointer flex-col items-center justify-center rounded-[26px] border border-white/70 bg-white px-8 text-[#151a24] shadow-[0_24px_70px_rgba(2,21,61,.28),0_2px_8px_rgba(2,21,61,.12)] transition-transform duration-150 ease-snappy hover:-translate-y-0.5 active:scale-[.99] motion-reduce:transform-none motion-reduce:transition-none" :class="{ '-translate-y-1 ring-4 ring-white/25': isDraggingOver }" @click="openFileDialog()">
+        <button ref="dropZone" type="button" class="mt-9 flex min-h-[240px] w-full max-w-[650px] cursor-pointer flex-col items-center justify-center rounded-[26px] border border-white/70 bg-white px-12 py-12 text-[#151a24] shadow-[0_24px_70px_rgba(2,21,61,.28),0_2px_8px_rgba(2,21,61,.12)] transition-transform duration-150 ease-snappy hover:-translate-y-0.5 active:scale-[.99] motion-reduce:transform-none motion-reduce:transition-none" :class="{ '-translate-y-1 ring-4 ring-white/25': isDraggingOver }" @click="openFileDialog()">
           <span class="mb-4 grid size-14 place-items-center rounded-2xl bg-[#eef6ff] text-accent"><CloudUpload :size="28" :stroke-width="1.8" /></span>
           <strong class="text-[17px] font-semibold tracking-[-0.01em]">Drop your PDF here</strong>
           <span class="mt-1.5 text-[14px] text-[#808897]">or choose a file from your computer</span>
